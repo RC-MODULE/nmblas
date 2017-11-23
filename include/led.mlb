@@ -1,0 +1,20 @@
+const LED_delay = 0_0100_0000h;
+
+macro LED(led_mask,delay)
+	push ar0,gr0;
+	ar0 = delay;
+	gr0 = 0FFh;
+	[1003_0C04h] = gr0;
+	
+	gr0 = led_mask;
+	[1003_0C00h] = gr0;
+	
+	gr0 = ar0;
+	own sleep:label;
+	<sleep>
+	gr0--;
+	if > goto sleep;
+	
+	
+	pop ar0,gr0;
+end LED;

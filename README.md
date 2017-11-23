@@ -1,1 +1,3 @@
-"# nmblas" 
+NeuroMAtrix BLAS implementation
+
+++--
