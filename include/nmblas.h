@@ -263,7 +263,7 @@ double nmblas_dsdot(
  */
 void nmblas_dswap(
 	const int N,
-	double *INCX,
+	double *X,
 	const int INCX,
 	double *Y,
 	const int INCY
