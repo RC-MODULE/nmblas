@@ -11,7 +11,11 @@
  */
  
  
- //! \defgroup LEVEL1 BLASS-LEVEL1
+ //! \defgroup LEVEL1 BLAS-LEVEL1
+ //! \{
+ 
+ //! \}
+//! \defgroup LEVEL2 BLAS-LEVEL2
  //! \{
  
  //! \}
@@ -507,7 +511,7 @@ void nmblas_sswap(
 
 /////////////////LEVEL 2 
 /**
- * \ingroup LEVEL 2
+ * \ingroup LEVEL2
  *
  * \brief выполняет следующие операцию Y = ALPHA*A[M,N]*X + BETTA*Y,<br>
  * \brief где A матрица размера M на N,ALPHA и BETTA скаляры, X и Y вектора корректной длины 
@@ -538,7 +542,7 @@ void nmblas_sgemv(
   const int         INCY
 );
 /**
- * \ingroup LEVEL 2
+ * \ingroup LEVEL2
  *
  * \brief выполняет следующие операцию Y = ALPHA*A[M,N]*X + BETTA*Y,<br>
  * \brief где A матрица размера M на N,ALPHA и BETTA скаляры, X и Y вектора подходящей длины 
