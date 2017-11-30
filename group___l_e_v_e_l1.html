@@ -1,0 +1,1483 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>nmblas: BLAS-LEVEL1</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">nmblas
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.4 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="pages.html"><span>Описания</span></a></li>
+      <li><a href="modules.html"><span>Группы</span></a></li>
+      <li><a href="files.html"><span>Файлы</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle">
+<div class="title">BLAS-LEVEL1</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:gac0e65520680ba049076b1aa8707d96eb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#gac0e65520680ba049076b1aa8707d96eb">nmblas_dasum</a> (const int N, const double *X, const int INCX)</td></tr>
+<tr class="memdesc:gac0e65520680ba049076b1aa8707d96eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция почленно складывает элементы вектора по модулю  <a href="#gac0e65520680ba049076b1aa8707d96eb">Подробнее...</a><br/></td></tr>
+<tr class="separator:gac0e65520680ba049076b1aa8707d96eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb5f41ff527ec7008b60e613acc136ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#gaeb5f41ff527ec7008b60e613acc136ec">nmblas_daxpy</a> (const int N, const double ALPHA, const double *X, const int INCX, double *Y, const int INCY)</td></tr>
+<tr class="memdesc:gaeb5f41ff527ec7008b60e613acc136ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">выполняет операцию Y = ALPHA*X+Y, где ALPHA скаляр, а X и Y вектора  <a href="#gaeb5f41ff527ec7008b60e613acc136ec">Подробнее...</a><br/></td></tr>
+<tr class="separator:gaeb5f41ff527ec7008b60e613acc136ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf7e6fe1144d7cf4e3a873734f611dd86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#gaf7e6fe1144d7cf4e3a873734f611dd86">nmblas_dcopy</a> (const int N, const double *X, const int INCX, double *Y, const int INCY)</td></tr>
+<tr class="memdesc:gaf7e6fe1144d7cf4e3a873734f611dd86"><td class="mdescLeft">&#160;</td><td class="mdescRight">копирует элементы массива X в массив Y.  <a href="#gaf7e6fe1144d7cf4e3a873734f611dd86">Подробнее...</a><br/></td></tr>
+<tr class="separator:gaf7e6fe1144d7cf4e3a873734f611dd86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2cf1154b8db277c218dfaad8fc09ed61"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga2cf1154b8db277c218dfaad8fc09ed61">nmblas_ddot</a> (const int N, const double *X, const int INCX, const double *Y, const int INCY)</td></tr>
+<tr class="memdesc:ga2cf1154b8db277c218dfaad8fc09ed61"><td class="mdescLeft">&#160;</td><td class="mdescRight">возвращает скалярное произведение векторов X и Y.  <a href="#ga2cf1154b8db277c218dfaad8fc09ed61">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga2cf1154b8db277c218dfaad8fc09ed61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga98669bd514c0affa351d68c3ece1a0fa"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga98669bd514c0affa351d68c3ece1a0fa">nmblas_dnrm2</a> (const int N, const double *X, const int INCX)</td></tr>
+<tr class="memdesc:ga98669bd514c0affa351d68c3ece1a0fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">возвращает Евклидову норму вектора X.  <a href="#ga98669bd514c0affa351d68c3ece1a0fa">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga98669bd514c0affa351d68c3ece1a0fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2500f51a3842e3d4de3cfaa517fe3f73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga2500f51a3842e3d4de3cfaa517fe3f73">nmblas_drot</a> (const int N, double *X, const int INCX, double *Y, const int INCY, const double C, const double S)</td></tr>
+<tr class="memdesc:ga2500f51a3842e3d4de3cfaa517fe3f73"><td class="mdescLeft">&#160;</td><td class="mdescRight">выполняет поворот массива точек в двумерном пространстве (поворот Гивена)<br/>
+  <a href="#ga2500f51a3842e3d4de3cfaa517fe3f73">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga2500f51a3842e3d4de3cfaa517fe3f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf0b6fbd2fb3c6e1a627a898d278dab70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#gaf0b6fbd2fb3c6e1a627a898d278dab70">nmblas_drotg</a> (double *a, double *b, double *c, double *s)</td></tr>
+<tr class="memdesc:gaf0b6fbd2fb3c6e1a627a898d278dab70"><td class="mdescLeft">&#160;</td><td class="mdescRight">вычисяет параметры необходимые для пороворота Гивена  <a href="#gaf0b6fbd2fb3c6e1a627a898d278dab70">Подробнее...</a><br/></td></tr>
+<tr class="separator:gaf0b6fbd2fb3c6e1a627a898d278dab70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae6eadffd429080770d379fbe5da2e04b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#gae6eadffd429080770d379fbe5da2e04b">nmblas_drotm</a> (const int N, double *X, const int INCX, double *Y, const int INCY, double *param)</td></tr>
+<tr class="memdesc:gae6eadffd429080770d379fbe5da2e04b"><td class="mdescLeft">&#160;</td><td class="mdescRight">функция применяет модифицированный поворот Гивена (modified-Givens rotation), матрица H предается через *PARAM<br/>
+  <a href="#gae6eadffd429080770d379fbe5da2e04b">Подробнее...</a><br/></td></tr>
+<tr class="separator:gae6eadffd429080770d379fbe5da2e04b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga234c0986a80c576bdf124e47811a5606"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga234c0986a80c576bdf124e47811a5606">nmblas_dscal</a> (const int N, const double ALPHA, double *X, const int INCX)</td></tr>
+<tr class="memdesc:ga234c0986a80c576bdf124e47811a5606"><td class="mdescLeft">&#160;</td><td class="mdescRight">выполняет умножение вектора на скаляр X = alpha*X.  <a href="#ga234c0986a80c576bdf124e47811a5606">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga234c0986a80c576bdf124e47811a5606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7fb41510d592f5163dbe29b8b567fe54"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga7fb41510d592f5163dbe29b8b567fe54">nmblas_dsdot</a> (const int N, const float *X, const int INCX, const float *Y, const int INCY)</td></tr>
+<tr class="memdesc:ga7fb41510d592f5163dbe29b8b567fe54"><td class="mdescLeft">&#160;</td><td class="mdescRight">возвращает скалярное произведение векторов X и Y тапа float. Вычисления внутри функции происходят в числах двойной(double) точности.  <a href="#ga7fb41510d592f5163dbe29b8b567fe54">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga7fb41510d592f5163dbe29b8b567fe54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1a53e921a188cd2e18965c620a3f3dd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga1a53e921a188cd2e18965c620a3f3dd8">nmblas_dswap</a> (const int N, double *X, const int INCX, double *Y, const int INCY)</td></tr>
+<tr class="memdesc:ga1a53e921a188cd2e18965c620a3f3dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">выполняет перестановку массивов X и Y.  <a href="#ga1a53e921a188cd2e18965c620a3f3dd8">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga1a53e921a188cd2e18965c620a3f3dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga081a23706fdf6e923062b20b22cfcc3f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga081a23706fdf6e923062b20b22cfcc3f">nmblas_idamax</a> (const int N, const double *X, const int INCX)</td></tr>
+<tr class="memdesc:ga081a23706fdf6e923062b20b22cfcc3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">возвращает индекс наибольшего по модулю элемента в массиве  <a href="#ga081a23706fdf6e923062b20b22cfcc3f">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga081a23706fdf6e923062b20b22cfcc3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5fec217133545a87cf75c10c093d6431"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga5fec217133545a87cf75c10c093d6431">nmblas_isamax</a> (const int N, const float *X, const int INCX)</td></tr>
+<tr class="memdesc:ga5fec217133545a87cf75c10c093d6431"><td class="mdescLeft">&#160;</td><td class="mdescRight">возвращает индекс наибольшего по модулю элемента в массиве  <a href="#ga5fec217133545a87cf75c10c093d6431">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga5fec217133545a87cf75c10c093d6431"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga810691baf7642d83c2102fe7553bdb94"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga810691baf7642d83c2102fe7553bdb94">nmblas_sasum</a> (const int N, const float *X, const int INCX)</td></tr>
+<tr class="memdesc:ga810691baf7642d83c2102fe7553bdb94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция почленно складывает элементы вектора по модулю  <a href="#ga810691baf7642d83c2102fe7553bdb94">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga810691baf7642d83c2102fe7553bdb94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9db662cd47c659ac9de7fb49dee9b793"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga9db662cd47c659ac9de7fb49dee9b793">nmblas_saxpy</a> (const int N, const float ALPHA, const float *X, const int INCX, float *Y, const int INCY)</td></tr>
+<tr class="memdesc:ga9db662cd47c659ac9de7fb49dee9b793"><td class="mdescLeft">&#160;</td><td class="mdescRight">выполняет операцию Y = ALPHA*X+Y, где ALPHA скаляр, а X и Y вектора  <a href="#ga9db662cd47c659ac9de7fb49dee9b793">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga9db662cd47c659ac9de7fb49dee9b793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3401ba39d7898ac3ff9fd4ef7d60c31a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga3401ba39d7898ac3ff9fd4ef7d60c31a">nmblas_scnrm2</a> (const int N, const float *X, const int INCX)</td></tr>
+<tr class="memdesc:ga3401ba39d7898ac3ff9fd4ef7d60c31a"><td class="mdescLeft">&#160;</td><td class="mdescRight">возвращает Евклидову норму вектора X.  <a href="#ga3401ba39d7898ac3ff9fd4ef7d60c31a">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga3401ba39d7898ac3ff9fd4ef7d60c31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga508cbe1c6e07fc32622c60a3882615e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga508cbe1c6e07fc32622c60a3882615e0">nmblas_scopy</a> (const int N, const float *X, const int INCX, float *Y, const int INCY)</td></tr>
+<tr class="memdesc:ga508cbe1c6e07fc32622c60a3882615e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">копирует элементы массива X в массив Y.  <a href="#ga508cbe1c6e07fc32622c60a3882615e0">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga508cbe1c6e07fc32622c60a3882615e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga97b25ace7fb982c3e7d5c65eedc4cc12"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga97b25ace7fb982c3e7d5c65eedc4cc12">nmblas_sdot</a> (const int n, const float *x, const int inc_x, const float *y, const int inc_y)</td></tr>
+<tr class="memdesc:ga97b25ace7fb982c3e7d5c65eedc4cc12"><td class="mdescLeft">&#160;</td><td class="mdescRight">возвращает скалярное произведение векторов X и Y.  <a href="#ga97b25ace7fb982c3e7d5c65eedc4cc12">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga97b25ace7fb982c3e7d5c65eedc4cc12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa353ef1c8a2660bf19a8b028d619e828"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#gaa353ef1c8a2660bf19a8b028d619e828">nmblas_sdsdot</a> (const int N, const float B, const float *X, const int INCX, const float *Y, const int INCY)</td></tr>
+<tr class="memdesc:gaa353ef1c8a2660bf19a8b028d619e828"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bозвращает скалярное произведение векторов X и Y с добавлением константы B.<br/>
+  <a href="#gaa353ef1c8a2660bf19a8b028d619e828">Подробнее...</a><br/></td></tr>
+<tr class="separator:gaa353ef1c8a2660bf19a8b028d619e828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1394f7eb77f9a9651d0c4d38c7de6224"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga1394f7eb77f9a9651d0c4d38c7de6224">nmblas_snrm2</a> (const int N, const float *X, const int INCX)</td></tr>
+<tr class="memdesc:ga1394f7eb77f9a9651d0c4d38c7de6224"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bозвращает Евклидову норму вектора X.  <a href="#ga1394f7eb77f9a9651d0c4d38c7de6224">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga1394f7eb77f9a9651d0c4d38c7de6224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9f0159585ac4720e6856cdd2a35806db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga9f0159585ac4720e6856cdd2a35806db">nmblas_srot</a> (const int N, float *X, const int INCX, float *Y, const int INCY, const float C, const float S)</td></tr>
+<tr class="memdesc:ga9f0159585ac4720e6856cdd2a35806db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bыполняет поворот массива точек в двумерном пространстве  <a href="#ga9f0159585ac4720e6856cdd2a35806db">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga9f0159585ac4720e6856cdd2a35806db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4a08635c1395521d20332d3d19db5943"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga4a08635c1395521d20332d3d19db5943">nmblas_srotm</a> (const int N, float *X, const int INCX, float *Y, const int INCY, float *param)</td></tr>
+<tr class="memdesc:ga4a08635c1395521d20332d3d19db5943"><td class="mdescLeft">&#160;</td><td class="mdescRight">функция применяет модифицированный поворот Гивена (modified-Givens rotation),<br/>
+  <a href="#ga4a08635c1395521d20332d3d19db5943">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga4a08635c1395521d20332d3d19db5943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3fc239f6bc6b33fd547585ba687cfef3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga3fc239f6bc6b33fd547585ba687cfef3">nmblas_sscal</a> (const int N, const float ALPHA, float *X, const int INCX)</td></tr>
+<tr class="memdesc:ga3fc239f6bc6b33fd547585ba687cfef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">выполняет умножение вектора на скаляр X = ALPHA*X.  <a href="#ga3fc239f6bc6b33fd547585ba687cfef3">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga3fc239f6bc6b33fd547585ba687cfef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga692b50b31beebe79029f5e4c33a2c03c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___l_e_v_e_l1.html#ga692b50b31beebe79029f5e4c33a2c03c">nmblas_sswap</a> (const int N, const float *X, const int INCX, const float *Y, const int INCY)</td></tr>
+<tr class="memdesc:ga692b50b31beebe79029f5e4c33a2c03c"><td class="mdescLeft">&#160;</td><td class="mdescRight">выполняет перестановку массивов X и Y.  <a href="#ga692b50b31beebe79029f5e4c33a2c03c">Подробнее...</a><br/></td></tr>
+<tr class="separator:ga692b50b31beebe79029f5e4c33a2c03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<h2 class="groupheader">Функции</h2>
+<a class="anchor" id="gac0e65520680ba049076b1aa8707d96eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double nmblas_dasum </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функция почленно складывает элементы вектора по модулю </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в векторе </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>смещение между элементами в массиве </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>сумма элементов вектора по модулю </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaeb5f41ff527ec7008b60e613acc136ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmblas_daxpy </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>ALPHA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>выполняет операцию Y = ALPHA*X+Y, где ALPHA скаляр, а X и Y вектора </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в векторе </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ALPHA</td><td>скаляр </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>смещение между элементами в массиве </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*Y</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>смещение между элементами в массиве </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gaf7e6fe1144d7cf4e3a873734f611dd86"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmblas_dcopy </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>копирует элементы массива X в массив Y. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в массиве </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>смещение между элементами в массиве </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*Y</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>смещение между элементами в массиве </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga2cf1154b8db277c218dfaad8fc09ed61"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double nmblas_ddot </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>возвращает скалярное произведение векторов X и Y. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в массиве </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>смещение между элементами в массиве </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*Y</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>смещение между элементами в массиве </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>скалярное произведение X и Y </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga98669bd514c0affa351d68c3ece1a0fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double nmblas_dnrm2 </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>возвращает Евклидову норму вектора X. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в массиве </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>смещение между элементами в массиве</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Евклидова норма вектора </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga2500f51a3842e3d4de3cfaa517fe3f73"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmblas_drot </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>C</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>S</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>выполняет поворот массива точек в двумерном пространстве (поворот Гивена)<br/>
+ </p>
+<p>[ x_i ] = [ c s ] [ x_i ]<br/>
+ [ y_i ] = [ -s c ] [ y_i ]<br/>
+ Если n &lt;= 0 или если c = 1 и s = 0, функция выходит сразу.</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество точек в массивах </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*X</td><td>указатель на массив, который содержит x координату точки </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>смещение между элементами в массиве </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*Y</td><td>указатель на массив, который содержит y координату точки </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>смещение между элементами в массиве </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">С</td><td>значение косинуса угла поворота </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">S</td><td>значение синуса угла поворота </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gaf0b6fbd2fb3c6e1a627a898d278dab70"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmblas_drotg </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>вычисяет параметры необходимые для пороворота Гивена </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*A</td><td>указатель на параметр a, после выполнения a будет переписан параметром r(смотри детальное описание) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*B</td><td>указатель на параметр b, после выполнения a будет переписан параметром z(смотри детальное описание) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">*C</td><td>после выполнения будет записан параметр с(смотри делальное описание) </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">*S</td><td>после выполнения будет записан параметр s(смотри делальное описание)</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>drotg вычисляет параметрв для поворота Гивена.<br/>
+ Принимая скаляр а и b,программа вычисляет следущие параметры:<br/>
+</p>
+<p>sigma = sgn(a) если |a| &gt; |b|, и sgn(b) в противном случаии;<br/>
+ r = sigma * sqrt( a^2 + b^2 );<br/>
+ c = a / r если r &lt;&gt; 0, иначе 1;<br/>
+ s = b / r если r &lt;&gt; 0, иначе 0;<br/>
+<br/>
+</p>
+<p>числа c, s и r будут удовлетворять следующему матричному уровнению:<br/>
+</p>
+<p>[ c s ] [ a ] = [ r ]<br/>
+ [ -s c ] [ b ] = [ 0 ]<br/>
+</p>
+<p>Sigma не важна для вычислений матрицы поворота Гивена, но важна для<br/>
+ дальнейшего надежного востановления c и s из одного сохраненого числа.<br/>
+ Для этого данная функция также вычисляет z как показано ниже <br/>
+</p>
+<p>z = s если |a| &gt; |b|,<br/>
+ z = 1 / c если |b| &gt;= |a| и c &lt;&gt; 0,1<br/>
+ z = 1 если c = 0.<br/>
+<br/>
+</p>
+<p>Функция возвращает r, переписывая a и z переписывая b, также возвращая c и s.<br/>
+ Если позже будет необходимость в реконструировании c и s из z это можно будет сделать следующим образом<br/>
+</p>
+<p>если z = 1, установить c = 0 и s = 1,<br/>
+ если |z| &lt; 1, установить c = sqrt(1 - z^2) и s = z,<br/>
+ если |z| &gt; 1, установить c = 1 / z и s = sqrt(1 - c^2).<br/>
+<br/>
+</p>
+<p>Смотри ``Basic Linear Algebra Subprograms for Fortran Usage'' C. Law-<br/>
+ son, R. Hanson, D. Kincaid and F. Krogh, ACM Transactions on Mathema-<br/>
+ tical Software, 1979, 5(3) pp 308-323, для болеее подробной информации.<br/>
+ </p>
+
+</div>
+</div>
+<a class="anchor" id="gae6eadffd429080770d379fbe5da2e04b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmblas_drotm </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>функция применяет модифицированный поворот Гивена (modified-Givens rotation), матрица H предается через *PARAM<br/>
+ </p>
+<p>[ x_i ] [ h_11 h_12 ] [ x_i ]<br/>
+ [ y_i ] = [ h_21 h_22 ] [ y_i ]<br/>
+ Если n &lt;= 0 или если H индентичная матрица, выход из функции происходит сразу</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>пеередает длину векторов. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*X</td><td>указатель на вектор X, после выполнения будет переписан результатом </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>передает инкремент массива X (шаг между элементами) </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*Y</td><td>указатель на вектор Y, после выполнения будет переписан результатом </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>передает инкремент массива Y (шаг между элементами) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*PARAM</td><td>указатель на массив размерности не менее 5(double), который содержит матрицу H. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga234c0986a80c576bdf124e47811a5606"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmblas_dscal </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>ALPHA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>выполняет умножение вектора на скаляр X = alpha*X. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество точек в массивах </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ALPHA</td><td>значение скаляра </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>смещение между элементами в массиве </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga7fb41510d592f5163dbe29b8b567fe54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double nmblas_dsdot </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>возвращает скалярное произведение векторов X и Y тапа float. Вычисления внутри функции происходят в числах двойной(double) точности. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в массиве </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>смещение между элементами в массиве </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*Y</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>смещение между элементами в массиве </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>double скалярное произведение X и Y </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga1a53e921a188cd2e18965c620a3f3dd8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmblas_dswap </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>выполняет перестановку массивов X и Y. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в массиве </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>смещение между элементами в массиве </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*Y</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>смещение между элементами в массиве </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga081a23706fdf6e923062b20b22cfcc3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int nmblas_idamax </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>возвращает индекс наибольшего по модулю элемента в массиве </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в массиве </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>смещение между элементами в массиве </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>индекс элемента </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga5fec217133545a87cf75c10c093d6431"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int nmblas_isamax </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>возвращает индекс наибольшего по модулю элемента в массиве </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в массиве </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>индекс элемента </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga810691baf7642d83c2102fe7553bdb94"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float nmblas_sasum </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функция почленно складывает элементы вектора по модулю </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в векторе </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>сумма элементов вектора по модулю </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga9db662cd47c659ac9de7fb49dee9b793"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmblas_saxpy </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>ALPHA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>выполняет операцию Y = ALPHA*X+Y, где ALPHA скаляр, а X и Y вектора </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в векторе </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ALPHA</td><td>скаляр </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*Y</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga3401ba39d7898ac3ff9fd4ef7d60c31a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float nmblas_scnrm2 </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>возвращает Евклидову норму вектора X. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в массиве </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga508cbe1c6e07fc32622c60a3882615e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmblas_scopy </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>копирует элементы массива X в массив Y. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в массиве </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*Y</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga97b25ace7fb982c3e7d5c65eedc4cc12"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float nmblas_sdot </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>inc_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>inc_y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>возвращает скалярное произведение векторов X и Y. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в массиве </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*Y</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>скалярное произведение X и Y </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa353ef1c8a2660bf19a8b028d619e828"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float nmblas_sdsdot </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Bозвращает скалярное произведение векторов X и Y с добавлением константы B.<br/>
+ </p>
+<p>Внутри функции используется двойная(double) точность</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в массиве </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*Y</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>скалярное произведение X и Y + B </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga1394f7eb77f9a9651d0c4d38c7de6224"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float nmblas_snrm2 </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Bозвращает Евклидову норму вектора X. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в массиве </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Bозвращает Евклидову норму вектора X </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga9f0159585ac4720e6856cdd2a35806db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmblas_srot </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>C</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>S</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Bыполняет поворот массива точек в двумерном пространстве </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество точек в массивах </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*X</td><td>указатель на массив, который содержит x координату точки </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*Y</td><td>указатель на массив, который содержит y координату точки </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>ДОЛЖЕН быть равен 1 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">С</td><td>значение косинуса угла поворота </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">S</td><td>значение синуса угла поворота </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga4a08635c1395521d20332d3d19db5943"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmblas_srotm </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>param</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>функция применяет модифицированный поворот Гивена (modified-Givens rotation),<br/>
+ </p>
+<p>матрица H предается через *PARAM<br/>
+<br/>
+ [ x_i ] = [ h_11 h_12 ] [ x_i ]<br/>
+ [ y_i ] = [ h_21 h_22 ] [ y_i ]<br/>
+ Если n &lt;= 0 или если H индентичная матрица, выход из функции происходит сразу</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>пеередает длину векторов. </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*X</td><td>указатель на вектор X, после выполнения будет переписан результатом </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>ДОЛЖЕН быть равным 1 </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*Y</td><td>указатель на вектор Y, после выполнения будет переписан результатом </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>ДОЛЖЕН быть равным 1 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*PARAM</td><td>указатель на массив размерности не менее 5(float), который содержит матрицу H. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga3fc239f6bc6b33fd547585ba687cfef3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmblas_sscal </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>ALPHA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>выполняет умножение вектора на скаляр X = ALPHA*X. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество точек в массивах </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ALPHA</td><td>значение скаляра </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив, который содержит x координату точки </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>ДОЛЖЕН быть равным 1 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga692b50b31beebe79029f5e4c33a2c03c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void nmblas_sswap </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>N</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>INCY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>выполняет перестановку массивов X и Y. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>количество элементов в массиве </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">*X</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCX</td><td>ДОЛЖЕН быть равным 1 </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">*Y</td><td>указатель на массив </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">INCY</td><td>ДОЛЖЕН быть равным 1 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по nmblas. Последние изменения: Чт 30 Ноя 2017 15:42:33. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

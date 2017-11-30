@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Ошибки"><param name="Local" value="bug.html"><param name="ImageNumber" value="11"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Группы"><param name="Local" value="modules.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="BLAS-LEVEL1"><param name="Local" value="group___l_e_v_e_l1.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dasum"><param name="Local" value="group___l_e_v_e_l1.html#gac0e65520680ba049076b1aa8707d96eb"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_daxpy"><param name="Local" value="group___l_e_v_e_l1.html#gaeb5f41ff527ec7008b60e613acc136ec"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dcopy"><param name="Local" value="group___l_e_v_e_l1.html#gaf7e6fe1144d7cf4e3a873734f611dd86"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_ddot"><param name="Local" value="group___l_e_v_e_l1.html#ga2cf1154b8db277c218dfaad8fc09ed61"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dnrm2"><param name="Local" value="group___l_e_v_e_l1.html#ga98669bd514c0affa351d68c3ece1a0fa"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_drot"><param name="Local" value="group___l_e_v_e_l1.html#ga2500f51a3842e3d4de3cfaa517fe3f73"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_drotg"><param name="Local" value="group___l_e_v_e_l1.html#gaf0b6fbd2fb3c6e1a627a898d278dab70"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_drotm"><param name="Local" value="group___l_e_v_e_l1.html#gae6eadffd429080770d379fbe5da2e04b"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dscal"><param name="Local" value="group___l_e_v_e_l1.html#ga234c0986a80c576bdf124e47811a5606"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dsdot"><param name="Local" value="group___l_e_v_e_l1.html#ga7fb41510d592f5163dbe29b8b567fe54"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dswap"><param name="Local" value="group___l_e_v_e_l1.html#ga1a53e921a188cd2e18965c620a3f3dd8"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_idamax"><param name="Local" value="group___l_e_v_e_l1.html#ga081a23706fdf6e923062b20b22cfcc3f"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_isamax"><param name="Local" value="group___l_e_v_e_l1.html#ga5fec217133545a87cf75c10c093d6431"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_sasum"><param name="Local" value="group___l_e_v_e_l1.html#ga810691baf7642d83c2102fe7553bdb94"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_saxpy"><param name="Local" value="group___l_e_v_e_l1.html#ga9db662cd47c659ac9de7fb49dee9b793"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_scnrm2"><param name="Local" value="group___l_e_v_e_l1.html#ga3401ba39d7898ac3ff9fd4ef7d60c31a"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_scopy"><param name="Local" value="group___l_e_v_e_l1.html#ga508cbe1c6e07fc32622c60a3882615e0"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_sdot"><param name="Local" value="group___l_e_v_e_l1.html#ga97b25ace7fb982c3e7d5c65eedc4cc12"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_sdsdot"><param name="Local" value="group___l_e_v_e_l1.html#gaa353ef1c8a2660bf19a8b028d619e828"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_snrm2"><param name="Local" value="group___l_e_v_e_l1.html#ga1394f7eb77f9a9651d0c4d38c7de6224"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_srot"><param name="Local" value="group___l_e_v_e_l1.html#ga9f0159585ac4720e6856cdd2a35806db"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_srotm"><param name="Local" value="group___l_e_v_e_l1.html#ga4a08635c1395521d20332d3d19db5943"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_sscal"><param name="Local" value="group___l_e_v_e_l1.html#ga3fc239f6bc6b33fd547585ba687cfef3"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_sswap"><param name="Local" value="group___l_e_v_e_l1.html#ga692b50b31beebe79029f5e4c33a2c03c"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="BLAS-LEVEL2"><param name="Local" value="group___l_e_v_e_l2.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dgemv"><param name="Local" value="group___l_e_v_e_l2.html#ga8233664a47bca47df85be957b7945f8e"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_sgemv"><param name="Local" value="group___l_e_v_e_l2.html#ga5436e2321440adc5f5946bc289678e99"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Файлы"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Файлы"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="include"><param name="Local" value="dir_d44c64559bbebec7f509842c48db8b23.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas.h"><param name="Local" value="nmblas_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nm_trans"><param name="Local" value="nmblas_8h.html#a7d7de38fdc9e6f8cc5dab2d15d1d4a6d"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="nm_n"><param name="Local" value="nmblas_8h.html#a7d7de38fdc9e6f8cc5dab2d15d1d4a6da19a27cfa9f22d0bae6fbeeb7923bd664"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="nm_t"><param name="Local" value="nmblas_8h.html#a7d7de38fdc9e6f8cc5dab2d15d1d4a6dae3150e888652bb1fd03e9d6386092238"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="MullMatrix_f"><param name="Local" value="nmblas_8h.html#aae18cb0881051ebeb0103bb1e9f6c375"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dasum"><param name="Local" value="nmblas_8h.html#gac0e65520680ba049076b1aa8707d96eb"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_daxpy"><param name="Local" value="nmblas_8h.html#gaeb5f41ff527ec7008b60e613acc136ec"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dcopy"><param name="Local" value="nmblas_8h.html#gaf7e6fe1144d7cf4e3a873734f611dd86"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_ddot"><param name="Local" value="nmblas_8h.html#ga2cf1154b8db277c218dfaad8fc09ed61"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dgemv"><param name="Local" value="nmblas_8h.html#ga8233664a47bca47df85be957b7945f8e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dnrm2"><param name="Local" value="nmblas_8h.html#ga98669bd514c0affa351d68c3ece1a0fa"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_drot"><param name="Local" value="nmblas_8h.html#ga2500f51a3842e3d4de3cfaa517fe3f73"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_drotg"><param name="Local" value="nmblas_8h.html#gaf0b6fbd2fb3c6e1a627a898d278dab70"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_drotm"><param name="Local" value="nmblas_8h.html#gae6eadffd429080770d379fbe5da2e04b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dscal"><param name="Local" value="nmblas_8h.html#ga234c0986a80c576bdf124e47811a5606"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dsdot"><param name="Local" value="nmblas_8h.html#ga7fb41510d592f5163dbe29b8b567fe54"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_dswap"><param name="Local" value="nmblas_8h.html#ga1a53e921a188cd2e18965c620a3f3dd8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_idamax"><param name="Local" value="nmblas_8h.html#ga081a23706fdf6e923062b20b22cfcc3f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_isamax"><param name="Local" value="nmblas_8h.html#ga5fec217133545a87cf75c10c093d6431"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_sasum"><param name="Local" value="nmblas_8h.html#ga810691baf7642d83c2102fe7553bdb94"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_saxpy"><param name="Local" value="nmblas_8h.html#ga9db662cd47c659ac9de7fb49dee9b793"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_scnrm2"><param name="Local" value="nmblas_8h.html#ga3401ba39d7898ac3ff9fd4ef7d60c31a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_scopy"><param name="Local" value="nmblas_8h.html#ga508cbe1c6e07fc32622c60a3882615e0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_sdot"><param name="Local" value="nmblas_8h.html#ga97b25ace7fb982c3e7d5c65eedc4cc12"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_sdsdot"><param name="Local" value="nmblas_8h.html#gaa353ef1c8a2660bf19a8b028d619e828"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_sgemv"><param name="Local" value="nmblas_8h.html#ga5436e2321440adc5f5946bc289678e99"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_snrm2"><param name="Local" value="nmblas_8h.html#ga1394f7eb77f9a9651d0c4d38c7de6224"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_srot"><param name="Local" value="nmblas_8h.html#ga9f0159585ac4720e6856cdd2a35806db"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_srotm"><param name="Local" value="nmblas_8h.html#ga4a08635c1395521d20332d3d19db5943"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_sscal"><param name="Local" value="nmblas_8h.html#ga3fc239f6bc6b33fd547585ba687cfef3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="nmblas_sswap"><param name="Local" value="nmblas_8h.html#ga692b50b31beebe79029f5e4c33a2c03c"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Список членов всех файлов"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Указатель"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Функции"><param name="Local" value="globals_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>
