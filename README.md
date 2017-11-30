@@ -1,7 +1,7 @@
 # [NMBLAS](https://github.com/RC-MODULE/nmblas)
 
 # Документация:  
-  HTML: https://rc-module.github.io/nmblas/modules.html 
+  HTML: https://rc-module.github.io/nmblas/modules.html  
   CHM:  http://rc-module.github.io/nmblas/nmblas.chm  
   PDF:  http://rc-module.github.io/nmblas/nmblas.pdf  
 
