@@ -23,9 +23,9 @@ open:
 	
 	#pdf
 	#cp ./latex/refman.pdf ./html/nmblas.pdf
-github: clean chm nmblas.html ipp-nmblas.html 
-	copy ipp-nmblas.html html\ipp-nmblas.html
-	copy nmblas.html html\nmblas.html
+	#copy nmblas.html html\nmblas.html
+	#nmblas.html 
+github: clean chm 
 	cd html &&\
 	git init . && git checkout --orphan gh-pages &&\
 	git add * &&\
@@ -33,19 +33,12 @@ github: clean chm nmblas.html ipp-nmblas.html
 	git remote add origin https://github.com/RC-MODULE/nmblas.git  &&\
 	git push -u -f origin gh-pages	
 
-ipp:
-	doxygen DoxyIPP
-	
-ipp-nmblas.html: 
-	lua ipp-nmblas.lua
-	xsltproc -o ipp-nmblas.html ipp-nmblas.xsl ipp-nmblas.xml
-	
+
 nmblas.html:	
 	lua summary.lua
 	xsltproc -o nmblas.html nmblas.xsl nmblas.xml
 	
-git-summary: nmblas.html ipp-nmblas.html 
-	copy ipp-nmblas.html html\ipp-nmblas.html
+git-summary: nmblas.html 
 	copy nmblas.html html\nmblas.html
 	cd html &&\
 	git add * &&\
