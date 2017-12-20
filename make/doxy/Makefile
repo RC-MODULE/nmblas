@@ -1,15 +1,21 @@
 #include ../../setenv.mk
 SHELL := cmd
+.PHONY: chm pdf html
 
 all: pdf
 
 chm:
-	taskkill /FI "windowtitle eq nmblas"
 	doxygen
+	utf2win.bat
+	taskkill /FI "windowtitle eq nmpp"
+	-cd html && hhc index.hhp
 	copy html\*.chm .
 
+html:
+	doxygen
 
 pdf: chm
+	doxygen
 	cd latex &&	call make.bat
 	copy .\latex\refman.pdf .\nmblas.pdf
 
@@ -26,6 +32,8 @@ open:
 	#copy nmblas.html html\nmblas.html
 	#nmblas.html 
 github: clean chm 
+	copy nmpp.chm html\nmpp.chm /Y
+	copy nmpp.pdf html\nmpp.pdf	/Y
 	cd html &&\
 	git init . && git checkout --orphan gh-pages &&\
 	git add * &&\
