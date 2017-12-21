@@ -2,7 +2,8 @@
 
 # Документация:  
   HTML: https://rc-module.github.io/nmblas/modules.html  
-  CHM:  http://rc-module.github.io/nmblas/nmblas.chm (При открытии необходимо снять галочку "Всегда спрашивать при открытии этого файла") 
+  CHM:  http://rc-module.github.io/nmblas/nmblas.chm(При открытии необходимо снять галочку "Всегда спрашивать при открытии этого файла")
+  
   PDF:  http://rc-module.github.io/nmblas/nmblas.pdf  
 
 # Назначение  
