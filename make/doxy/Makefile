@@ -2,7 +2,7 @@
 SHELL := cmd
 .PHONY: chm pdf html
 
-all: pdf
+all:  pdf chm
 
 chm:
 	doxygen
@@ -14,7 +14,7 @@ chm:
 html:
 	doxygen
 
-pdf: chm
+pdf: 
 	doxygen
 	cd latex &&	call make.bat
 	copy .\latex\refman.pdf .\nmblas.pdf
